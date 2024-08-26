@@ -73,7 +73,7 @@ function Portfolio() {
       <div className="hidden md:flex w-full mb-28 last-of-type:mb-5 relative flex-row text-right">
         <div className="shadow-[0px_0px_16px_11px] shadow-[rgba(96,138,177,0.43)] flex-[50%] md:mt-8 max-w-[430px] absolute">
           <Image
-            src="/images/about.jpg"
+            src="/works/portfolio-1.jpeg"
             alt="Personal Website"
             width={500}
             height={500}

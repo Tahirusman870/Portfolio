@@ -36,7 +36,6 @@ function Project() {
               </div>
               <div>
                 {/* Dynamic */}
-                <Portfolio />
               </div>
             </Slider>
           </div>
@@ -45,7 +44,6 @@ function Project() {
             {/* Portfolio */}
             <Portfolio />
             {/* Dynamic */}
-            <Portfolio />
           </div>
         </>
       </div>
