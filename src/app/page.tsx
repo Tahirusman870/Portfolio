@@ -5,7 +5,11 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 import MobileNav from "./components/MobileNav";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
-
+import About from "./components/About";
+import Tech from "./components/Tech";
+import Skill from "./components/Skill";
+import Project from "./components/Project";
+import Footer from "./components/Footer";
 
 
 const HomePage = () => {
@@ -45,11 +49,11 @@ const HomePage = () => {
         <Nav openNav={openNav} />
         <Hero />
         <div className="relative z-[30] ">
-          {/* <About />
+          <About />
           <Tech />
           <Skill />
-          <Works/>
-          <Footer /> */}
+          <Project />
+          <Footer />
         </div>
       </div>
     </div>

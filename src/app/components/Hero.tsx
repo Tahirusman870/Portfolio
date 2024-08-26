@@ -31,17 +31,10 @@ const Hero = () => {
             , what can I do, and my current skills mostly in terms of
             programming and technology.
           </p>
-          {/* space-y-6 sm:space-y-0 sm:flex sm:flex-row */}
+
           <SocialIcon/>
         </div>
-        {/* <div className="w-[450px] hidden bg-[#f18720] relative lg:flex items-center rounded-full h-[450px]">
-          <Image
-            src="/images/u1.jpg"
-            alt="user"
-            layout="fill"
-            className="object-cover rounded-full"
-          />
-        </div> */}
+
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ const Nav = ({ openNav }: Props) => {
               src="/tuicon.png"
               width={500}
               height={500}
-              alt="Picture of the author"
+              alt="Icon"
               className="rounded-md"
             />
           </div>

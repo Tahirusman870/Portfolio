@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/locale/Works.jsx", "src/app/components/locale/WorkElement.jsx", "src/app/components/locale/languages/en.js", "src/app/components/locale/languages/index.js", "src/app/components/locale/i18n.js"],
   "exclude": ["node_modules"]
 }
