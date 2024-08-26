@@ -12,7 +12,7 @@ function Portfolio() {
       <div className="group relative w-[92%] mx-auto flex flex-col justify-center items-center md:hidden">
         <div className="mx-[-1px] -z-10 absolute top-0 left-0 w-full ">
           <Image
-            src="/Works/portfolio-mobile.jpg"
+            src="/images/about.jpg"
             alt="Personal Website"
             width={500}
             height={500}
@@ -73,7 +73,7 @@ function Portfolio() {
       <div className="hidden md:flex w-full mb-28 last-of-type:mb-5 relative flex-row text-right">
         <div className="shadow-[0px_0px_16px_11px] shadow-[rgba(96,138,177,0.43)] flex-[50%] md:mt-8 max-w-[430px] absolute">
           <Image
-            src="/Works/portfolio-desktop.jpg"
+            src="/images/about.jpg"
             alt="Personal Website"
             width={500}
             height={500}
