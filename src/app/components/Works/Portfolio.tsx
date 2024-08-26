@@ -107,7 +107,7 @@ function Portfolio() {
           </div>
           <div className="flex">
             <div className="font-bold text-blue-500">
-              Next Js, TypeScript, Tailwind CSS
+              Next Js, TypeScript, Tailwind CSS 
             </div>
           </div>
           <div className="flex justify-between items-center mt-4 sm:w-[80px] xl:w-[264px]">
