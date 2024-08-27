@@ -5,7 +5,7 @@ import SocialIcon from "./SocialIcon";
 
 const Hero = () => {
   return (
-    <div className="h-[90vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center ">
+    <div className="h-[92vh] md:h-[90vh] bg-[url('/images/banner.jpg')] mt-[8vh] md:mt-[10vh] bg-cover bg-center ">
       <Particle />
       <div className="w-[80%] grid-cols-1 mx-auto grid h-[100%] items-center text-center">
         <div>

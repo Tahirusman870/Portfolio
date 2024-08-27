@@ -6,7 +6,7 @@ import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div id="Contact" className="pt-[4rem] md:pt-[5rem] pb-[2.5rem] bg-[#121121]">
+    <div id="Contact" className="pt-[4rem] md:pt-[4rem] pb-[2.5rem] bg-[#121121]">
       <h1 className="heading">
         Contact
         <span className="text-blue-500"> Us</span>

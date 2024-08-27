@@ -5,11 +5,11 @@ function TechStack() {
   return (
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
         <div>
-          <div data-aos="fade-right" data-aos-delay="100">
+          <div data-aos="zoom-in-down" data-aos-delay="100" className="transition-all ">
             <h1 className="text-[14px] md:text-[20px] text-center ">
               WordPress
             </h1>
-            <div className="hover:scale-110 duration-500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/wordpress-icon.svg"
                 alt="WordPress"
@@ -21,9 +21,9 @@ function TechStack() {
           </div>
         </div>
         <div>
-          <div data-aos="fade-right" data-aos-delay="300">
+          <div data-aos="zoom-in-down" data-aos-delay="300">
             <h1 className="text-[14px] md:text-[20px] text-center">HTML</h1>
-            <div className="hover:scale-110 duration-500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/html-icon.svg"
                 alt="HTML"
@@ -35,9 +35,9 @@ function TechStack() {
           </div>
         </div>
         <div>
-          <div data-aos="fade-right" data-aos-delay="500">
+          <div data-aos="zoom-in-down" data-aos-delay="500">
             <h1 className="text-[14px] text-center md:text-[20px]">CSS</h1>
-            <div className="hover:scale-110 duration-500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/css-icon.svg"
                 alt="CSS"
@@ -49,11 +49,11 @@ function TechStack() {
           </div>
         </div>
         <div>
-          <div data-aos="fade-right" data-aos-delay="700">
+          <div data-aos="zoom-in-down" data-aos-delay="700">
             <h1 className="text-[14px] text-center md:text-[20px]">
               Tailwind-CSS
             </h1>
-            <div className="hover:scale-110 duration-500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/tailwind-css-icon.svg"
                 alt="Tailwind-CSS"
@@ -65,11 +65,11 @@ function TechStack() {
           </div>
         </div>
         <div>
-          <div data-aos="fade-right" data-aos-delay="900">
+          <div data-aos="zoom-in-down" data-aos-delay="900">
             <h1 className="text-[14px] text-center md:text-[20px]">
               Shadcn-UI
             </h1>
-            <div className="hover:scale-110 duration-2500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/shadcn-ui-seeklogo.svg"
                 alt="Shancn-UI"
@@ -81,11 +81,11 @@ function TechStack() {
           </div>
         </div>
         <div>
-          <div data-aos="fade-right" data-aos-delay="1100">
+          <div data-aos="zoom-in-down" data-aos-delay="1100">
             <h1 className="text-[14px] text-center md:text-[20px]">
               Material-UI
             </h1>
-            <div className="hover:scale-110 duration-500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/materialui.svg"
                 alt="Material-UI"
@@ -97,11 +97,11 @@ function TechStack() {
           </div>
         </div>
         <div>
-          <div data-aos="fade-right" data-aos-delay="1300">
+          <div data-aos="zoom-in-down" data-aos-delay="1300">
             <h1 className="text-[14px] text-center md:text-[20px]">
               JavaScript
             </h1>
-            <div className="hover:scale-110 duration-500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/javascript.svg"
                 alt="JavaScript"
@@ -113,11 +113,11 @@ function TechStack() {
           </div>
         </div>
         <div>
-          <div data-aos="fade-right" data-aos-delay="1500">
+          <div data-aos="zoom-in-down" data-aos-delay="1500">
             <h1 className="text-[14px] text-center md:text-[20px]">
               TypeScript
             </h1>
-            <div className="hover:scale-110 duration-500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/typescript-icon.svg"
                 alt="TypeScript"
@@ -129,9 +129,9 @@ function TechStack() {
           </div>
         </div>
         <div>
-          <div data-aos="fade-right" data-aos-delay="1700">
+          <div data-aos="zoom-in-down" data-aos-delay="1700">
             <h1 className="text-[14px] text-center md:text-[20px]">Node.js</h1>
-            <div className="hover:scale-110 duration-500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/node-js-icon.svg"
                 alt="Node.js"
@@ -143,9 +143,9 @@ function TechStack() {
           </div>
         </div>
         <div>
-          <div data-aos="fade-right" data-aos-delay="1900">
+          <div data-aos="zoom-in-down" data-aos-delay="1900">
             <h1 className="text-[14px] text-center md:text-[20px]">React.js</h1>
-            <div className="hover:scale-110 duration-500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/react-js-icon.svg"
                 alt="React.js"
@@ -157,9 +157,9 @@ function TechStack() {
           </div>
         </div>
         <div>
-          <div data-aos="fade-right" data-aos-delay="2100">
+          <div data-aos="zoom-in-down" data-aos-delay="2100">
             <h1 className="text-[14px] text-center md:text-[20px]">Next.js</h1>
-            <div className="hover:scale-110 duration-500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/nextjs-icon.svg"
                 alt="Next.js"
@@ -171,9 +171,9 @@ function TechStack() {
           </div>
         </div>
         <div>
-          <div data-aos="fade-right" data-aos-delay="2300">
+          <div data-aos="zoom-in-down" data-aos-delay="2300">
             <h1 className="text-[14px] text-center md:text-[20px]">Vue.js</h1>
-            <div className="hover:scale-110 duration-500">
+            <div className="transition-all hover:scale-125 scale-100 duration-500">
               <Image
                 src="/icons/vue-js-icon.svg"
                 alt="Vue.js"

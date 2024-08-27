@@ -24,7 +24,7 @@ const SkillLanguage = ({
           {skill1}
         </h1>
         <span
-          className={`${level1} bottom-0 h-[6px] absolute bg-[#f18720]`}
+          className={`${level1} animate-pulse bottom-0 h-[8px] md:h-[10px] absolute bg-[#f18720]`}
         ></span>
       </div>
       <div className="relative mb-[3rem]">
@@ -32,7 +32,7 @@ const SkillLanguage = ({
           {skill2}
         </h1>
         <span
-          className={`${level2} bottom-0 h-[6px] absolute bg-[#f18720]`}
+          className={`${level2} animate-pulse bottom-0 h-[8px] md:h-[10px] absolute bg-[#f18720]`}
         ></span>
       </div>
       <div className="relative mb-[3rem]">
@@ -40,7 +40,7 @@ const SkillLanguage = ({
           {skill3}
         </h1>
         <span
-          className={`${level3} bottom-0 h-[6px] absolute bg-[#f18720]`}
+          className={`${level3} animate-pulse bottom-0 h-[8px] md:h-[10px] absolute bg-[#f18720]`}
         ></span>
       </div>
     </div>

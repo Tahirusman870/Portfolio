@@ -8,16 +8,20 @@
   .nav-link {
     @apply relative font-semibold text-white cursor-pointer text-[17px] w-fit md:block after:block after:content-[""]
         after:absolute after:h-[3px] after:bg-blue-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition
-        after:duration-300 after:origin-center hidden;
+        after:duration-300 after:origin-center hidden focus:text-blue-500;
   }
 
   .nav-link-mobile {
     @apply relative font-semibold text-white cursor-pointer text-[27px] w-fit md:block after:block after:content-[""]
         after:absolute after:h-[3px] after:bg-blue-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition
-        after:duration-300 after:origin-center;
+        after:duration-300 after:origin-center focus:text-blue-500;
   }
 
   .heading{
     @apply text-center text-slate-200 text-[30px] sm:text-[35px] md:text-[45px] font-bold uppercase;
   }
+}
+
+* {
+  scroll-behavior: smooth !important;
 }
