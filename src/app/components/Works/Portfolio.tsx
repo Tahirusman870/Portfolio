@@ -1,22 +1,19 @@
 import { FiExternalLink } from "react-icons/fi";
 import { AiFillGithub } from "react-icons/ai";
-import React from "react";
 import Image from "next/image";
-import Slider from "react-slick";
 
 function Portfolio() {
   return (
     <div>
-      {" "}
       {/* Mobile */}
       <div className="group relative w-[92%] mx-auto flex flex-col justify-center items-center md:hidden">
         <div className="mx-[-1px] -z-10 absolute top-0 left-0 w-full ">
           <Image
-            src="/images/about.jpg"
+            src="/works/portfolio-2.jpeg"
             alt="Personal Website"
             width={500}
             height={500}
-            className="w-full h-full"
+            className="w-full h-full rounded-md"
           />
           <div className="rounded absolute top-0 left-0 z-20 w-full h-full bg-[rgba(0,0,0,0.2)] group-hover:bg-[rgba(0,0,0,0.9)] group-active:bg-[rgba(0,0,0,0.9)] group-focus:bg-[rgba(0,0,0,0.9)] duration-500"></div>
         </div>
@@ -60,7 +57,7 @@ function Portfolio() {
                     size={24}
                     className="text-blue-500 hover:text-[#f18720]"
                   />
-                  View Code{" "}
+                  View Code
                 </a>
               </div>
             </div>
@@ -77,7 +74,7 @@ function Portfolio() {
             alt="Personal Website"
             width={500}
             height={500}
-            className="w-full h-full"
+            className="w-full h-full rounded-md"
           />
         </div>
         <div
@@ -98,7 +95,6 @@ function Portfolio() {
             // ${!reverse ? "justify-end" : "justify-start"}
             className="bg-[#121121ad] rounded py-4 px-[10px] my-2.5 flex w-[45%] justify-end"
           >
-            {" "}
             <p className="xl:text-base 2xl:text-lg">
               A bio informative site with an modern, intuitive, harmonious, and
               responsive design to show my skills, experince, expertise,
@@ -107,7 +103,7 @@ function Portfolio() {
           </div>
           <div className="flex">
             <div className="font-bold text-blue-500">
-              Next Js, TypeScript, Tailwind CSS 
+              Next Js, TypeScript, Tailwind CSS
             </div>
           </div>
           <div className="flex justify-between items-center mt-4 sm:w-[80px] xl:w-[264px]">
