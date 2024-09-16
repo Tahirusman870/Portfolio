@@ -10,13 +10,15 @@ function Toolicon2() {
     >
       <Image
         src="/icons/html-icon.svg"
-        alt="HTML"
+        title="HTML"
+        alt="HTML 5"
         height={500}
         width={500}
         className="w-[2rem] h-[2rem] mx-auto transition-all duration-200 scale-100 hover:scale-125"
       />
       <Image
         src="/icons/css-icon.svg"
+        title="CSS 3"
         alt="CSS"
         height={500}
         width={500}
@@ -24,6 +26,7 @@ function Toolicon2() {
       />
       <Image
         src="/icons/javascript.svg"
+        title="JavaScript"
         alt="JavaScript"
         height={500}
         width={500}
@@ -31,6 +34,7 @@ function Toolicon2() {
       />
       <Image
         src="/icons/bootstrap.svg"
+        title="BootStrap"
         alt="BootStrap"
         height={500}
         width={500}

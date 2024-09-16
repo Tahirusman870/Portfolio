@@ -21,11 +21,11 @@ const Hero = () => {
           <TextAnimation />
           <p className="mt-[2rem] text-slate-200 text-[16px] md:text-[20px] ">
             Currently, I&apos;m working{" "}
-            <a href="https://dynamatics.co/" className="hover:text-[#f18720]">
+            <a href="https://dynamatics.co/" className="hover:text-[#f18720] text-blue-500">
               @Dynamatics
             </a>{" "}
             as a front-end developer, Here you will find more information{" "}
-            <a href="#About" className="hover:text-[#f18720]">
+            <a href="#About" className="hover:text-[#f18720] text-blue-500">
               About Me
             </a>
             , what can I do, and my current skills mostly in terms of

@@ -8,6 +8,7 @@ import Dynamatics from "./Works/Dynamatics";
 import Dynamic from "./Works/Dynamic";
 import MsTechnical from "./Works/MsTechnical";
 import BinSadiqGroup from "./Works/BinSadiqGroup";
+import DynamaticsV2 from "./Works/Dynamatics-V2";
 
 function Project() {
   var settings = {
@@ -37,6 +38,10 @@ function Project() {
           <div className="mx-auto w-full max-w-[400px] md:hidden">
             <Slider {...settings}>
               <div>
+                {/* Dynamatics-V2*/}
+                <DynamaticsV2 />
+              </div>
+              <div>
                 {/* BinSadiq Group*/}
                 <BinSadiqGroup />
               </div>
@@ -60,6 +65,8 @@ function Project() {
           </div>
           {/* Desktop */}
           <div className=" hidden md:flex flex-col">
+            {/* Dynamatics-V2*/}
+            <DynamaticsV2 />
             {/* BinSadiq Group*/}
             <BinSadiqGroup />
             {/* Portfolio */}
