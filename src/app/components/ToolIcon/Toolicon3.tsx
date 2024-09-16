@@ -29,6 +29,13 @@ function Toolicon3() {
         width={500}
         className="w-[2rem] h-[2rem] mx-auto transition-all duration-200 scale-100 hover:scale-125"
       />
+      <Image
+        src="/icons/framer.png"
+        alt="Framer Motion"
+        height={500}
+        width={500}
+        className="w-[2rem] h-[2rem] mx-auto transition-all duration-200 scale-100 hover:scale-125"
+      />
     </div>
   );
 }

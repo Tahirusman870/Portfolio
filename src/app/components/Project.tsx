@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Dynamatics from "./Works/Dynamatics";
 import Dynamic from "./Works/Dynamic";
 import MsTechnical from "./Works/MsTechnical";
+import BinSadiqGroup from "./Works/BinSadiqGroup";
 
 function Project() {
   var settings = {
@@ -36,6 +37,10 @@ function Project() {
           <div className="mx-auto w-full max-w-[400px] md:hidden">
             <Slider {...settings}>
               <div>
+                {/* BinSadiq Group*/}
+                <BinSadiqGroup />
+              </div>
+              <div>
                 {/* Portfolio */}
                 <Portfolio />
               </div>
@@ -55,6 +60,8 @@ function Project() {
           </div>
           {/* Desktop */}
           <div className=" hidden md:flex flex-col">
+            {/* BinSadiq Group*/}
+            <BinSadiqGroup />
             {/* Portfolio */}
             <Portfolio />
             {/* Dynamatics */}
