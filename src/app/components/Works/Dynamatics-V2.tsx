@@ -78,7 +78,7 @@ function DynamaticsV2() {
         <div className="mb-[2rem] flex-[40%] flex flex-col z-[2] items-end">
           <div className="">
             <p className="italic xl:text-sm 2xl:text-base text-[#f18720]">
-              In Development Project
+              Under Development Project
             </p>
             <h1 className="xl:text-xl 2xl:text-2xl my-1.5 font-bold tracking-wide text-blue-500">
               Dynamatics-V2
